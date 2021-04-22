@@ -5,7 +5,7 @@
 4) sort 3.txt | uniq -c | sort -nr | cat > 3.txt
     (*странно, но почему то без sort -nr, не хочет записывать в файл*)
 # ENV
-В файле **fibonachi.sh**.Считает числа фибоначи.
+В файле **fibonachi.sh**. Считает числа фибоначи.
 ### Запуск
 ```bash
 bash fibonachi.sh a b C
