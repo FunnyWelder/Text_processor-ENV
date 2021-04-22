@@ -4,6 +4,3 @@
 3) sed -r 's/koko/kuku/g' 2.txt | grep 'kuku' | head -n 3 | cat >> 3.txt
 4) sort 3.txt | uniq -c | sort -nr | cat > 3.txt
     (*странно, но почему то без sort -nr, не хочет записывать в файл*)
-   
-# ENV
-Находится в файле script.sh
