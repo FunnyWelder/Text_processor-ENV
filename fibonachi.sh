@@ -1,7 +1,10 @@
 #!/bin/bash
 echo "Введите N:"
 read N
-a=$2
+
+if [[ -z $a ]]; then
+  a=$2
+fi
 b=$1
 c=$3
 empty=$(file fib.txt)
